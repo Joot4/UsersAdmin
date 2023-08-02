@@ -2,15 +2,15 @@
 
 Pequeno projeto em angular, porém com bastante aprendizagem, utilizando a grande maioria dos acervos que o angular oferece. Esse projeto tem como objetivo um desafio proposto pela Pulse by Grupo Mateus.
 
+![Alt text](/assetsReadme/ListadeUsers)
+
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Para começar, pode fazer o clone usando https://github.com/Joot4/UsersAdmin.git e depois instalar todas as dependências com o npm i ou npm yarn.
+Pra começar você pode fazer o clone usando git clone https://github.com/Joot4/UsersAdmin.git e depois instalar todas as dependências com o npm i ou npm yarn. E não esqueça de instalar caso não tenha instalado, o bootstrap pois você vai precisar. a flag é essa: ng add ngx-bootstrap
 
 ### 📋 Pré-requisitos
-
-Certo, para rodar ele, você vai precisar de ngx-boostrap, 
 
 Para começar a utilizar o WebApp é pré-requisito ter o Node.js instalado (versão 14.20.x ou acima) e o seu gerenciador de pacote favorito na versão mais atual. Caso você ainda não tenha instalado o pacote @angular/cli, instale-o via npm ou yarn.
 
@@ -64,6 +64,7 @@ Foi utilizado o framework jasmine para fazer testes unitários e realmente ocorr
 
 ## 🛠️ Construído com
 
+* Foi utilizado tambem o figma para fazer o protótipo [https://www.figma.com/file/xRdShfWVxRAp9BTj3szniP/Lista-de-Usu%C3%A1rios?type=design&node-id=49-225&mode=design&t=qP4EGfKDO4np93Zg-0]
 * Foi utilizado a API do [https://jsonplaceholder.typicode.com/users]
 * Foi utilizado o Bootstrap 5 para o layout [https://getbootstrap.com/]
 * Foi utilizado o Jasmine para teste unitário [https://github.com/codecraft-tv/angular-course/tree/current/13.unit-testing/2.jasmine-and-karma/code/]
