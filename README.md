@@ -10,6 +10,19 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 Pra começar você pode fazer o clone usando git clone https://github.com/Joot4/UsersAdmin.git e depois instalar todas as dependências com o npm i ou npm yarn. E não esqueça de instalar caso não tenha instalado, o bootstrap pois você vai precisar. a flag é essa: ng add ngx-bootstrap
 
+Aqui nesse projeto foi envolvido:
+
+* Rotas
+* Diretivas
+* Http Get
+* Injeção de Dependências
+* Forms
+* Reactive Modules
+* Interfaces
+* Guards
+* Micro FrontEnds
+* Data Binding ...
+
 ### 📋 Pré-requisitos
 
 Para começar a utilizar o WebApp é pré-requisito ter o Node.js instalado (versão 14.20.x ou acima) e o seu gerenciador de pacote favorito na versão mais atual. Caso você ainda não tenha instalado o pacote @angular/cli, instale-o via npm ou yarn.
