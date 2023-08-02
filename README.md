@@ -47,6 +47,17 @@ Caso contrário, você receberá uma mensagem:
 
 ![Alt text](image-5.png)
 
+e pode ficar tranquilo, ele é responsivo 🥳:
+
+![Alt text](image-7.png)
+
+![Alt text](image-8.png)
+
+![Alt text](image-9.png)
+
+![Alt text](image-10.png)
+
+
 ## ⚙️ Executando os testes
 
 Foi utilizado o framework jasmine para fazer testes unitários e realmente ocorreu alguns problemas no percurso, porém foram todos solucionados:
@@ -54,8 +65,6 @@ Foi utilizado o framework jasmine para fazer testes unitários e realmente ocorr
 ![Alt text](image-6.png)
 
 ## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
 
 * Foi utilizado a API do [https://jsonplaceholder.typicode.com/users]
 * Foi utilizado o Bootstrap 5 para o layout [https://getbootstrap.com/]
