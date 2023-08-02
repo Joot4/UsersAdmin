@@ -11,10 +11,7 @@ npm install -g @angular/cli
 
 Certo, para rodar ele, você vai precisar de ngx-boostrap, 
 
-```
 Para começar a utilizar o WebApp é pré-requisito ter o Node.js instalado (versão 14.20.x ou acima) e o seu gerenciador de pacote favorito na versão mais atual. Caso você ainda não tenha instalado o pacote @angular/cli, instale-o via npm ou yarn.
-
-```
 
 ### 🔧 Como usar?
 
@@ -73,7 +70,7 @@ Foi utilizado o framework jasmine para fazer testes unitários e realmente ocorr
 ## 🎁 Expressões de gratidão
 
 
-Queria agradecer a vocês que me deram oportunidade de crescer sempre na vida e esse é projeto que foi feito com bastante capricho como tudo na minha vida!
+Queria agradecer a vocês que me deram oportunidade de crescer sempre na vida e esse é um dos meus projetos que foi feito com bastante capricho como tudo na minha vida!
 
 Tive algumas dificuldades em algumas coisas, mas como eu sempre gosto de ressaltar a qualidade que eu gosto muito em mim, é que quando que coloco algo na cabeça, eu tenho de tudo para conseguir alcançar!📢
 
