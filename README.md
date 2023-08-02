@@ -23,44 +23,44 @@ Senha: admin
 
 Você pode utilizar ela para acessar a lista de usuários.
 
-![Alt text](image.png)
+![Alt text](/assetsReadme/image.png)
 
 Você vai perceber que vai demorar um pouco, é o atraso normal para fazer a chamada na requisição HTTP, caso dê algum erro, com certeza você saberá, pois o processo está bem desenhado:
 
-![Alt text](image-1.png)
+![Alt text](/assetsReadme/image-1.png)
 
 Mas para que você saiba, mesmo que isso não aconteça a tela abaixo é o comportamento caso ocorra algum problema:
 
-![Alt text](image-2.png)
+![Alt text](/assetsReadme/image-2.png)
 
 Dando tudo certo você vai ser direcionado a tela de lista de usuários:
 
-![Alt text](image-3.png)
+![Alt text](/assetsReadme/image-3.png)
 
 Caso você queira ver mais informações ou até mesmo procurar um usuário específico, pode digitar o nome da pessoa e caso a lista retorne o nome da pessoa a pessoa será mostrada:
 
-![Alt text](image-4.png)
+![Alt text](/assetsReadme/image-4.png)
 
 Caso contrário, você receberá uma mensagem:
 
-![Alt text](image-5.png)
+![Alt text](/assetsReadme/image-5.png)
 
 e pode ficar tranquilo, ele é responsivo 🥳:
 
-![Alt text](image-7.png)
+![Alt text](/assetsReadme/image-7.png)
 
-![Alt text](image-8.png)
+![Alt text](/assetsReadme/image-8.png)
 
-![Alt text](image-9.png)
+![Alt text](/assetsReadme/image-9.png)
 
-![Alt text](image-10.png)
+![Alt text](/assetsReadme/image-10.png)
 
 
 ## ⚙️ Executando os testes
 
 Foi utilizado o framework jasmine para fazer testes unitários e realmente ocorreu alguns problemas no percurso, porém foram todos solucionados:
 
-![Alt text](image-6.png)
+![Alt text](/assetsReadme/image-6.png)
 
 ## 🛠️ Construído com
 
