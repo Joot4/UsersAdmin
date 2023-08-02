@@ -18,8 +18,18 @@ Para começar a utilizar o WebApp é pré-requisito ter o Node.js instalado (ver
 
 ### 🔧 Como usar?
 
-Passo 1
+PASSO 1 
+
+Depois que você fez a instalação, é provavelmente você irá estar nesta tela abaixo, onde ela vai pedir o login e a senha.
+Para fazer o login eu fiz o cadastro default que é:
+Email: admin@admin
+Senha: admin
+
+Você pode utilizar ela para acessar a lista de usuários.
 ![Alt text](image.png)
+
+Você vai perceber que vai demorar um pouco, é o atraso normal para fazer a chamada na requisição HTTP, caso dê algum erro, com certeza você saberá, pois o processo está bem desenhado.
+![Alt text](image-1.png)
 
 
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
