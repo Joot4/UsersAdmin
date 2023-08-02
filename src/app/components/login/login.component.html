@@ -1,0 +1,34 @@
+
+
+<div class="container-fluid mt-4 ">
+  <div *ngIf="errorOccurred" class="alert alert-danger">
+    Credenciais inválidas. Tente Novamente.
+  </div>
+</div>
+
+<main class="form-signin">
+  <form (ngSubmit)="onSubmit()" [formGroup]="loginForm">
+    <div class="imgCenter">
+      <img class="mb-4" [src]="imgUrl" alt="logo Users" width="72" height="67">
+    </div>
+    <h1 class="h3 mb-3 fw-normal">Por favor, faça o login</h1>
+
+    <div class="form-floating box1">
+      <input type="email" formControlName="email" class="form-control" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+      <div *ngIf="loginForm.get('email')?.invalid && (loginForm.get('email')?.dirty || loginForm.get('email')?.touched)" class="text-danger">
+        Email é obrigatório e deve ser válido.
+      </div>
+    </div>
+    <div class="form-floating box2">
+      <input type="password" formControlName="password" class="form-control" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+      <div *ngIf="loginForm.get('password')?.invalid && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched)" class="text-danger">
+        Senha é obrigatória.
+      </div>
+    </div>
+
+    <button class="w-100 btn btn-lg btn-primary" type="submit" [disabled]="loginForm.invalid">Login</button>
+    <p class="mt-5 mb-3 text-muted text-center">Junior Almeida © 2023</p>
+  </form>
+</main>

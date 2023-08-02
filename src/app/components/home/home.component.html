@@ -1,0 +1,18 @@
+<nav class="navbar bg-body-tertiary shadow p-3 mb-5">
+  <div class="container">
+    <a class="navbar-brand fw-bold">LISTA DE USUÁRIOS</a>
+    <form [formGroup]="searchForm" class="d-flex" role="search">
+
+      <input
+        class="form-control me-2 input-size"
+        type="search"
+        placeholder="Pesquise o Nome"
+        aria-label="Search"
+        formControlName="searchText"
+      />
+      <button type="button" class="btn btn-primary"> buscar</button>
+    </form>
+  </div>
+</nav>
+<app-users></app-users>
+
