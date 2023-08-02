@@ -5,7 +5,8 @@ Pequeno projeto em angular, porém com bastante aprendizagem, utilizando a grand
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-npm install -g @angular/cli
+
+Para começar, pode fazer o clone usando https://github.com/Joot4/UsersAdmin.git e depois instalar todas as dependências com o npm i ou npm yarn.
 
 ### 📋 Pré-requisitos
 
