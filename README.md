@@ -5,33 +5,22 @@ Pequeno projeto em angular, porém com bastante aprendizagem, utilizando a grand
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
 npm install -g @angular/cli
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+Certo, para rodar ele, você vai precisar de ngx-boostrap, 
 
 ```
-Para começar a utilizar o PO UI é pré-requisito ter o Node.js instalado (versão 14.20.x ou acima) e o seu gerenciador de pacote favorito na versão mais atual. Caso você ainda não tenha instalado o pacote @angular/cli, instale-o via npm ou yarn.
+Para começar a utilizar o WebApp é pré-requisito ter o Node.js instalado (versão 14.20.x ou acima) e o seu gerenciador de pacote favorito na versão mais atual. Caso você ainda não tenha instalado o pacote @angular/cli, instale-o via npm ou yarn.
 
 ```
 
-### 🔧 Instalação
+### 🔧 Como usar?
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Passo 1
+![Alt text](image.png)
 
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
-```
 
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
