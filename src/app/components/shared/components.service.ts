@@ -5,7 +5,6 @@ import { UsersInterface } from '../models/UsersInterface';
 import { delay } from 'rxjs';
 
 
-
 @Injectable({
   providedIn: 'root'
 })
@@ -20,10 +19,5 @@ export class ComponentsService {
       delay(2000)
     )
   }
-
-
-
-
-
 
 }

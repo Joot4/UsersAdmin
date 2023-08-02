@@ -22,6 +22,6 @@ import { FilterService } from './shared/filter.service';
     ReactiveFormsModule
   ],
   providers: [FilterService],
-  exports:[]
+  exports:[UsersComponent,]
 })
 export class ComponentsModule { }

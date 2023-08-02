@@ -7,16 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
 import { NgbModalModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { FilterService } from './components/shared/filter.service';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-
   ],
   imports: [
     BrowserModule,
@@ -25,10 +22,9 @@ import { FilterService } from './components/shared/filter.service';
     ComponentsModule,
     NgbModule,
     NgbModalModule,
-    FormsModule,
-    ReactiveFormsModule,
+    ReactiveFormsModule
   ],
-  providers: [FilterService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

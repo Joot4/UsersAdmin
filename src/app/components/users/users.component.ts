@@ -1,11 +1,11 @@
 
-import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
+import { Component, HostListener, OnInit, TemplateRef, ViewChild } from '@angular/core';
 
 import { UsersInterface } from '../models/UsersInterface';
 
 import { NgbModal} from '@ng-bootstrap/ng-bootstrap';
 
-import { Subscription } from 'rxjs';
+import { Subscription,} from 'rxjs';
 import { FilterService } from '../shared/filter.service';
 import { ComponentsService } from '../shared/components.service';
 
@@ -27,6 +27,10 @@ export class UsersComponent implements OnInit {
   errorOccurred: boolean = false
   loading: boolean = true;
 
+  isMobileResolution = false;
+  noUsersFound: boolean = false;
+  isSearching: boolean = false
+
 
   constructor(
     private componentService: ComponentsService,
@@ -35,6 +39,7 @@ export class UsersComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    this.checkResolution();
     this.componentService.list().subscribe(
       (users: UsersInterface[]) => {
         this.users = users;
@@ -71,5 +76,12 @@ this.subscription?.unsubscribe();
     this.filteredUsers = this.users.filter((user) =>
       user.name.toLowerCase().includes(searchText.toLowerCase())
     );
+    this.isSearching = searchText.length > 0 && this.filteredUsers.length === 0;
+  }
+
+
+  @HostListener('window:resize', ['$event'])
+  checkResolution() {
+    this.isMobileResolution = window.innerWidth <= 768;
   }
 }

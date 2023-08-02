@@ -11,6 +11,7 @@ import { FilterService } from '../shared/filter.service';
 export class HomeComponent implements OnInit {
   searchForm: FormGroup;
 
+
   constructor(
     private formBuilder: FormBuilder,
     private filterService: FilterService
@@ -25,5 +26,6 @@ export class HomeComponent implements OnInit {
       this.filterService.setSearchText(searchText);
     });
   }
+
 
 }
