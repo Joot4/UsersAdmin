@@ -18,82 +18,58 @@ Para começar a utilizar o WebApp é pré-requisito ter o Node.js instalado (ver
 
 ### 🔧 Como usar?
 
-PASSO 1 
-
 Depois que você fez a instalação, é provavelmente você irá estar nesta tela abaixo, onde ela vai pedir o login e a senha.
 Para fazer o login eu fiz o cadastro default que é:
 Email: admin@admin
 Senha: admin
 
 Você pode utilizar ela para acessar a lista de usuários.
+
 ![Alt text](image.png)
 
-Você vai perceber que vai demorar um pouco, é o atraso normal para fazer a chamada na requisição HTTP, caso dê algum erro, com certeza você saberá, pois o processo está bem desenhado.
+Você vai perceber que vai demorar um pouco, é o atraso normal para fazer a chamada na requisição HTTP, caso dê algum erro, com certeza você saberá, pois o processo está bem desenhado:
+
 ![Alt text](image-1.png)
 
+Mas para que você saiba, mesmo que isso não aconteça a tela abaixo é o comportamento caso ocorra algum problema:
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+![Alt text](image-2.png)
+
+Dando tudo certo você vai ser direcionado a tela de lista de usuários:
+
+![Alt text](image-3.png)
+
+Caso você queira ver mais informações ou até mesmo procurar um usuário específico, pode digitar o nome da pessoa e caso a lista retorne o nome da pessoa a pessoa será mostrada:
+
+![Alt text](image-4.png)
+
+Caso contrário, você receberá uma mensagem:
+
+![Alt text](image-5.png)
 
 ## ⚙️ Executando os testes
 
-Explicar como executar os testes automatizados para este sistema.
+Foi utilizado o framework jasmine para fazer testes unitários e realmente ocorreu alguns problemas no percurso, porém foram todos solucionados:
 
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+![Alt text](image-6.png)
 
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+* Foi utilizado a API do [https://jsonplaceholder.typicode.com/users]
+* Foi utilizado o Bootstrap 5 para o layout [https://getbootstrap.com/]
+* Foi utilizado o Jasmine para teste unitário [https://github.com/codecraft-tv/angular-course/tree/current/13.unit-testing/2.jasmine-and-karma/code/]
 
 ## 🎁 Expressões de gratidão
 
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
+
+Queria agradecer a vocês que me deram oportunidade de crescer sempre na vida e esse é projeto que foi feito com bastante capricho como tudo na minha vida!
+
+Tive algumas dificuldades em algumas coisas, mas como eu sempre gosto de ressaltar a qualidade que eu gosto muito em mim, é que quando que coloco algo na cabeça, eu tenho de tudo para conseguir alcançar!📢
+
+E espero que esteja conforme vocês gostariam que estivesse, porque fiz esse projeto como se fosse realmente meu e que fosse utilizar ele pra sempre.
 
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+⌨️ com 😎 por [Junior Almeida](https://github.com/Joot4) 😊
