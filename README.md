@@ -17,7 +17,7 @@ Aqui nesse projeto foi envolvido:
 * Http Get
 * Injeção de Dependências
 * Forms
-* Reactive Modules
+* ReactiveForms
 * Interfaces
 * Guards
 * Micro FrontEnds
