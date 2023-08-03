@@ -15,6 +15,15 @@
   </div>
 </div>
 
+<div class="countflex">
+  <span></span>
+  <span></span>
+  <div class="user-count" *ngIf="filteredUsers.length > 0">
+    mostrando:
+    {{ filteredUsers.length }}/{{ users.length }}
+  </div>
+</div>
+
 <div class="table-responsive" *ngIf="!isMobileResolution">
   <table class="table">
     <thead class="thead-light">
@@ -41,6 +50,8 @@
     </tbody>
   </table>
 </div>
+
+
 
 <div class="table-responsive" >
   <table class="table table-bordered" *ngIf="isMobileResolution">

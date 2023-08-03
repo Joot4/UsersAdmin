@@ -8,9 +8,10 @@ Pequeno projeto em angular, porém com bastante aprendizagem, utilizando a grand
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Pra começar você pode fazer o clone usando git clone https://github.com/Joot4/UsersAdmin.git e depois instalar todas as dependências com o npm i ou npm yarn. E não esqueça de instalar caso não tenha instalado, o bootstrap pois você vai precisar. a flag é essa: ng add ngx-bootstrap
+Pra começar você pode fazer o clone usando git clone https://github.com/Joot4/UsersAdmin.git e depois instalar todas as dependências com o npm i ou npm yarn. E não esqueça de instalar caso não tenha instalado, o bootstrap pois você vai precisar. 
+a flag é essa: ng add ngx-bootstrap.
 
-Aqui nesse projeto foi envolvido:
+Aqui nesse projeto em angular, usamos bastante:
 
 * Rotas
 * Diretivas
@@ -31,6 +32,7 @@ Para começar a utilizar o WebApp é pré-requisito ter o Node.js instalado (ver
 
 Depois que você fez a instalação, é provavelmente você irá estar nesta tela abaixo, onde ela vai pedir o login e a senha.
 Para fazer o login eu fiz o cadastro default que é:
+
 Email: admin@admin
 Senha: admin
 
@@ -85,9 +87,9 @@ Foi utilizado o framework jasmine para fazer testes unitários e realmente ocorr
 ## 🎁 Expressões de gratidão
 
 
-Queria agradecer a vocês que me deram oportunidade de crescer sempre na vida e esse é um dos meus projetos que foi feito com bastante capricho como tudo na minha vida!
+Queria agradecer a todos vocês que me deram oportunidade de crescer sempre na minha vida e esse é um dos meus projetos que foi feito com bastante capricho como gosto que aconteça tudo na minha vida!
 
-Tive algumas dificuldades em algumas coisas, mas como eu sempre gosto de ressaltar a qualidade que eu gosto muito em mim, é que quando que coloco algo na cabeça, eu tenho de tudo para conseguir alcançar!📢
+Tive algumas dificuldades em algumas coisas, mas como eu sempre gosto de ressaltar a qualidade que eu gosto muito em mim, é que quando que coloco algo na cabeça, eu tento de tudo para conseguir alcançar!📢
 
 E espero que esteja conforme vocês gostariam que estivesse, porque fiz esse projeto como se fosse realmente meu e que fosse utilizar ele pra sempre.
 

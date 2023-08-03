@@ -4,3 +4,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.countflex{
+  display: flex;
+  justify-content: space-around;
+  align-self: end;
+}
+
+.user-count{
+  font-size: 20px;
+  font-weight: bolder;
+}
