@@ -9,22 +9,25 @@ import { FilterService } from '../shared/filter.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  searchForm: FormGroup;
+  searchForm!: FormGroup;
 
 
   constructor(
     private formBuilder: FormBuilder,
     private filterService: FilterService
-  ) {
-    this.searchForm = this.formBuilder.group({
-      searchText: [''],
-    });
-  }
+  ) {}
 
   ngOnInit(): void {
+    this.buildForm()
     this.searchForm.get('searchText')?.valueChanges.subscribe((searchText: string) => {
       this.filterService.setSearchText(searchText);
     });
+  }
+
+  buildForm(){
+    this.searchForm = this.formBuilder.group({
+      searchText: [''],
+    })
   }
 
 

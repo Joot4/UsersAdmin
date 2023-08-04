@@ -36,7 +36,6 @@ export class LoginComponent implements OnInit {
 
       const result = await this.accountService.login(this.loginForm.value);
       if (result) {
-        console.log('Login efetuado com sucesso');
         this.router.navigate(['home']);
       } else {
         this.errorOccurred = true;
@@ -44,8 +43,6 @@ export class LoginComponent implements OnInit {
           this.errorOccurred = false;
         }, 2000);
       }
-    } catch (error) {
-      console.log('Erro durante o login:', error);
-    }
+    } catch (error) {}
   }
 }
