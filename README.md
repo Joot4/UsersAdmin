@@ -8,7 +8,7 @@ Pequeno projeto em angular, utilizando a grande maioria dos acervos que o angula
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Pra começar você pode fazer o clone usando 'git clone github.com/Joot4/UsersAdmin.git' e depois instalar todas as dependências com o npm i ou npm yarn. E não esqueça de instalar caso não tenha instalado, o bootstrap pois você vai precisar. 
+Pra começar você pode fazer o clone usando 'git clone github.com/Joot4/UsersAdmin.git' e depois instalar todas as dependências com o npm ou yarn. E não esqueça de instalar caso não tenha instalado, o bootstrap pois você vai precisar. 
 a flag é essa: ng add ngx-bootstrap.
 
 Aqui nesse projeto em angular, usamos bastante:
