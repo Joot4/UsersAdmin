@@ -1,6 +1,6 @@
 # UsersAdmin
 
-Pequeno projeto em angular, porém com bastante aprendizagem, utilizando a grande maioria dos acervos que o angular oferece. Esse projeto tem como objetivo um desafio proposto pela Pulse by Grupo Mateus.
+Pequeno projeto em angular, utilizando a grande maioria dos acervos que o angular oferece. Esse projeto tem como objetivo um desafio proposto pela Pulse by Grupo Mateus.
 
 ![Alt text](image.png)
 
