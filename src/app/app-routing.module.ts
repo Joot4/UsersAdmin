@@ -6,10 +6,6 @@ import { AuthGuard } from './components/shared/auth.guard';
 const routes: Routes = [
 { path: '', redirectTo: 'login', pathMatch: 'full'},
 { path: 'home', component: HomeComponent, canActivate:[AuthGuard]},
-
-// Lazy Loading
-// { path: 'produto',
-// loadChildren: () => import('./features/produto/produto.module').then(m => m.ProdutoModule)}
 ];
 
 @NgModule({
