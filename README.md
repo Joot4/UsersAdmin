@@ -40,7 +40,7 @@ Você pode utilizar ela para acessar a lista de usuários.
 
 ![Alt text](/assetsReadme/image.png)
 
-Você vai perceber que vai demorar um pouco, é o atraso normal para fazer a chamada na requisição HTTP, caso dê algum erro, com certeza você saberá, pois o processo está bem desenhado:
+Você vai perceber que vai demorar um pouco, o atraso é normal e proposital para fazer a requisição HTTP, caso dê algum erro, com certeza você saberá, pois o processo está bem desenhado:
 
 ![Alt text](/assetsReadme/image-1.png)
 
