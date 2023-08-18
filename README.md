@@ -44,7 +44,7 @@ Você vai perceber que vai demorar um pouco, é o atraso normal para fazer a cha
 
 ![Alt text](/assetsReadme/image-1.png)
 
-Mas para que você saiba, mesmo que isso não aconteça a tela abaixo é o comportamento caso ocorra algum problema:
+Mas para que você saiba, mesmo que a requisição não aconteça ou aconteça algum problema a tela abaixo é o comportamento caso ocorra algum problema:
 
 ![Alt text](/assetsReadme/image-2.png)
 
@@ -52,7 +52,7 @@ Dando tudo certo você vai ser direcionado a tela de lista de usuários:
 
 ![Alt text](/assetsReadme/image-3.png)
 
-Caso você queira ver mais informações ou até mesmo procurar um usuário específico, pode digitar o nome da pessoa e caso a lista retorne o nome da pessoa a pessoa será mostrada:
+Caso você queira ver mais informações ou até mesmo procurar um usuário específico, pode digitar o nome da pessoa e caso a lista retorne o nome da pessoa digitada, será mostrada como na tela abaixo:
 
 ![Alt text](/assetsReadme/image-4.png)
 
